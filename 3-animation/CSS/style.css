@@ -1,0 +1,31 @@
+.svg {
+ width: 500px;
+ height: 500px;
+ position: absolute;
+ left: 50%;
+ top: 50%;
+ transform: translate(-50%, -50%);
+ background-color: #0081FF; 
+}
+
+#letterN{
+    animation: bounce 3s ease alternate infinite;
+}
+#letterA{
+    animation: bounce 3s .3s ease alternate infinite;
+}
+#letterM{
+    animation: bounce 3s .6s ease alternate infinite;
+}
+#letterE{
+    animation: bounce 3s .8s ease alternate infinite;
+}
+
+@keyframes bounce{
+    90%{
+        transform: scale(1.0);
+    }
+    100%{
+        transform: scale(1.1);
+    }
+}
